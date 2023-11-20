@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263C88322B0BF3E90074B601 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263C88312B0BF3E90074B601 /* ResponseModel.swift */; };
+		263C88342B0BF4390074B601 /* EpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263C88332B0BF4390074B601 /* EpisodeModel.swift */; };
+		263C88362B0BF4520074B601 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263C88352B0BF4520074B601 /* LocationModel.swift */; };
+		265079B52B0BFC82005CAE9A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265079B42B0BFC82005CAE9A /* Launch Screen.storyboard */; };
+		2679793E2B0BA59B00BDF0AE /* WubbaLubbaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679793D2B0BA59B00BDF0AE /* WubbaLubbaAppApp.swift */; };
+		267979402B0BA59B00BDF0AE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679793F2B0BA59B00BDF0AE /* MainView.swift */; };
+		267979442B0BA59B00BDF0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267979432B0BA59B00BDF0AE /* Assets.xcassets */; };
+		267979472B0BA59B00BDF0AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267979462B0BA59B00BDF0AE /* Preview Assets.xcassets */; };
+		2679794E2B0BA72900BDF0AE /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679794D2B0BA72900BDF0AE /* Characters.swift */; };
+		267979502B0BA74500BDF0AE /* Episodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679794F2B0BA74500BDF0AE /* Episodes.swift */; };
+		2679795D2B0BAB4000BDF0AE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679795C2B0BAB4000BDF0AE /* Service.swift */; };
+		267979602B0BABDC00BDF0AE /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679795F2B0BABDC00BDF0AE /* CharacterModel.swift */; };
+		267979632B0BAD3000BDF0AE /* CharCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267979622B0BAD3000BDF0AE /* CharCell.swift */; };
+		267979652B0BB78E00BDF0AE /* CharCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267979642B0BB78E00BDF0AE /* CharCellViewModel.swift */; };
+		2679796A2B0BC02C00BDF0AE /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267979692B0BC02C00BDF0AE /* CharactersViewModel.swift */; };
+		2679796C2B0BCC8200BDF0AE /* EpisodesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679796B2B0BCC8200BDF0AE /* EpisodesViewModel.swift */; };
+		267979702B0BCF8600BDF0AE /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679796F2B0BCF8600BDF0AE /* EpisodeCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		263C88312B0BF3E90074B601 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		263C88332B0BF4390074B601 /* EpisodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeModel.swift; sourceTree = "<group>"; };
+		263C88352B0BF4520074B601 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		265079B42B0BFC82005CAE9A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2679793A2B0BA59B00BDF0AE /* WubbaLubbaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WubbaLubbaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2679793D2B0BA59B00BDF0AE /* WubbaLubbaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WubbaLubbaAppApp.swift; sourceTree = "<group>"; };
+		2679793F2B0BA59B00BDF0AE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		267979432B0BA59B00BDF0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		267979462B0BA59B00BDF0AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2679794D2B0BA72900BDF0AE /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		2679794F2B0BA74500BDF0AE /* Episodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episodes.swift; sourceTree = "<group>"; };
+		2679795C2B0BAB4000BDF0AE /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		2679795F2B0BABDC00BDF0AE /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		267979622B0BAD3000BDF0AE /* CharCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharCell.swift; sourceTree = "<group>"; };
+		267979642B0BB78E00BDF0AE /* CharCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharCellViewModel.swift; sourceTree = "<group>"; };
+		267979692B0BC02C00BDF0AE /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		2679796B2B0BCC8200BDF0AE /* EpisodesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewModel.swift; sourceTree = "<group>"; };
+		2679796F2B0BCF8600BDF0AE /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		267979372B0BA59B00BDF0AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267979312B0BA59B00BDF0AE = {
+			isa = PBXGroup;
+			children = (
+				2679793B2B0BA59B00BDF0AE /* Products */,
+				2679793C2B0BA59B00BDF0AE /* WubbaLubbaApp */,
+			);
+			sourceTree = "<group>";
+		};
+		2679793B2B0BA59B00BDF0AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2679793A2B0BA59B00BDF0AE /* WubbaLubbaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2679793C2B0BA59B00BDF0AE /* WubbaLubbaApp */ = {
+			isa = PBXGroup;
+			children = (
+				267979432B0BA59B00BDF0AE /* Assets.xcassets */,
+				265079B42B0BFC82005CAE9A /* Launch Screen.storyboard */,
+				2679795E2B0BABCA00BDF0AE /* Models */,
+				267979452B0BA59B00BDF0AE /* Preview Content */,
+				267979612B0BAC6D00BDF0AE /* ReusableComponents */,
+				2679795B2B0BAB3300BDF0AE /* Service */,
+				267979552B0BAA8000BDF0AE /* Views */,
+				2679793D2B0BA59B00BDF0AE /* WubbaLubbaAppApp.swift */,
+			);
+			path = WubbaLubbaApp;
+			sourceTree = "<group>";
+		};
+		267979452B0BA59B00BDF0AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				267979462B0BA59B00BDF0AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		267979552B0BAA8000BDF0AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2679795A2B0BAAED00BDF0AE /* Characters */,
+				267979592B0BAAE300BDF0AE /* Episodes */,
+				267979562B0BAABF00BDF0AE /* MainView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		267979562B0BAABF00BDF0AE /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				2679793F2B0BA59B00BDF0AE /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		267979592B0BAAE300BDF0AE /* Episodes */ = {
+			isa = PBXGroup;
+			children = (
+				2679794F2B0BA74500BDF0AE /* Episodes.swift */,
+				2679796B2B0BCC8200BDF0AE /* EpisodesViewModel.swift */,
+			);
+			path = Episodes;
+			sourceTree = "<group>";
+		};
+		2679795A2B0BAAED00BDF0AE /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				2679794D2B0BA72900BDF0AE /* Characters.swift */,
+				267979692B0BC02C00BDF0AE /* CharactersViewModel.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		2679795B2B0BAB3300BDF0AE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2679795C2B0BAB4000BDF0AE /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2679795E2B0BABCA00BDF0AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2679795F2B0BABDC00BDF0AE /* CharacterModel.swift */,
+				263C88332B0BF4390074B601 /* EpisodeModel.swift */,
+				263C88352B0BF4520074B601 /* LocationModel.swift */,
+				263C88312B0BF3E90074B601 /* ResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		267979612B0BAC6D00BDF0AE /* ReusableComponents */ = {
+			isa = PBXGroup;
+			children = (
+				2679796D2B0BCF7200BDF0AE /* EpisodeCell */,
+				267979662B0BBB9500BDF0AE /* CharCell */,
+			);
+			path = ReusableComponents;
+			sourceTree = "<group>";
+		};
+		267979662B0BBB9500BDF0AE /* CharCell */ = {
+			isa = PBXGroup;
+			children = (
+				267979622B0BAD3000BDF0AE /* CharCell.swift */,
+				267979642B0BB78E00BDF0AE /* CharCellViewModel.swift */,
+			);
+			path = CharCell;
+			sourceTree = "<group>";
+		};
+		2679796D2B0BCF7200BDF0AE /* EpisodeCell */ = {
+			isa = PBXGroup;
+			children = (
+				2679796F2B0BCF8600BDF0AE /* EpisodeCell.swift */,
+			);
+			path = EpisodeCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		267979392B0BA59B00BDF0AE /* WubbaLubbaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2679794A2B0BA59B00BDF0AE /* Build configuration list for PBXNativeTarget "WubbaLubbaApp" */;
+			buildPhases = (
+				267979362B0BA59B00BDF0AE /* Sources */,
+				267979372B0BA59B00BDF0AE /* Frameworks */,
+				267979382B0BA59B00BDF0AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WubbaLubbaApp;
+			productName = WubbaLubbaApp;
+			productReference = 2679793A2B0BA59B00BDF0AE /* WubbaLubbaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		267979322B0BA59B00BDF0AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					267979392B0BA59B00BDF0AE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 267979352B0BA59B00BDF0AE /* Build configuration list for PBXProject "WubbaLubbaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 267979312B0BA59B00BDF0AE;
+			productRefGroup = 2679793B2B0BA59B00BDF0AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				267979392B0BA59B00BDF0AE /* WubbaLubbaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267979382B0BA59B00BDF0AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265079B52B0BFC82005CAE9A /* Launch Screen.storyboard in Resources */,
+				267979472B0BA59B00BDF0AE /* Preview Assets.xcassets in Resources */,
+				267979442B0BA59B00BDF0AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		267979362B0BA59B00BDF0AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2679796A2B0BC02C00BDF0AE /* CharactersViewModel.swift in Sources */,
+				267979402B0BA59B00BDF0AE /* MainView.swift in Sources */,
+				2679795D2B0BAB4000BDF0AE /* Service.swift in Sources */,
+				267979702B0BCF8600BDF0AE /* EpisodeCell.swift in Sources */,
+				267979652B0BB78E00BDF0AE /* CharCellViewModel.swift in Sources */,
+				263C88342B0BF4390074B601 /* EpisodeModel.swift in Sources */,
+				267979502B0BA74500BDF0AE /* Episodes.swift in Sources */,
+				267979602B0BABDC00BDF0AE /* CharacterModel.swift in Sources */,
+				2679796C2B0BCC8200BDF0AE /* EpisodesViewModel.swift in Sources */,
+				2679793E2B0BA59B00BDF0AE /* WubbaLubbaAppApp.swift in Sources */,
+				2679794E2B0BA72900BDF0AE /* Characters.swift in Sources */,
+				263C88322B0BF3E90074B601 /* ResponseModel.swift in Sources */,
+				263C88362B0BF4520074B601 /* LocationModel.swift in Sources */,
+				267979632B0BAD3000BDF0AE /* CharCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		267979482B0BA59B00BDF0AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		267979492B0BA59B00BDF0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2679794B2B0BA59B00BDF0AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WubbaLubbaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = GHCMDFUPZV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WubbaLubba;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wubbaLubba.WubbaLubbaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2679794C2B0BA59B00BDF0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WubbaLubbaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = GHCMDFUPZV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WubbaLubba;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wubbaLubba.WubbaLubbaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		267979352B0BA59B00BDF0AE /* Build configuration list for PBXProject "WubbaLubbaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267979482B0BA59B00BDF0AE /* Debug */,
+				267979492B0BA59B00BDF0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2679794A2B0BA59B00BDF0AE /* Build configuration list for PBXNativeTarget "WubbaLubbaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2679794B2B0BA59B00BDF0AE /* Debug */,
+				2679794C2B0BA59B00BDF0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 267979322B0BA59B00BDF0AE /* Project object */;
+}
