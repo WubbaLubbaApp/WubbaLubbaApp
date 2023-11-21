@@ -11,7 +11,7 @@
 		263C88342B0BF4390074B601 /* EpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263C88332B0BF4390074B601 /* EpisodeModel.swift */; };
 		263C88362B0BF4520074B601 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263C88352B0BF4520074B601 /* LocationModel.swift */; };
 		265079B52B0BFC82005CAE9A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265079B42B0BFC82005CAE9A /* Launch Screen.storyboard */; };
-		2679793E2B0BA59B00BDF0AE /* WubbaLubbaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679793D2B0BA59B00BDF0AE /* WubbaLubbaAppApp.swift */; };
+		2679793E2B0BA59B00BDF0AE /* WubbaLubbaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679793D2B0BA59B00BDF0AE /* WubbaLubbaApp.swift */; };
 		267979402B0BA59B00BDF0AE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679793F2B0BA59B00BDF0AE /* MainView.swift */; };
 		267979442B0BA59B00BDF0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267979432B0BA59B00BDF0AE /* Assets.xcassets */; };
 		267979472B0BA59B00BDF0AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267979462B0BA59B00BDF0AE /* Preview Assets.xcassets */; };
@@ -32,7 +32,7 @@
 		263C88352B0BF4520074B601 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		265079B42B0BFC82005CAE9A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		2679793A2B0BA59B00BDF0AE /* WubbaLubbaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WubbaLubbaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2679793D2B0BA59B00BDF0AE /* WubbaLubbaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WubbaLubbaAppApp.swift; sourceTree = "<group>"; };
+		2679793D2B0BA59B00BDF0AE /* WubbaLubbaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WubbaLubbaApp.swift; sourceTree = "<group>"; };
 		2679793F2B0BA59B00BDF0AE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		267979432B0BA59B00BDF0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		267979462B0BA59B00BDF0AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 				267979612B0BAC6D00BDF0AE /* ReusableComponents */,
 				2679795B2B0BAB3300BDF0AE /* Service */,
 				267979552B0BAA8000BDF0AE /* Views */,
-				2679793D2B0BA59B00BDF0AE /* WubbaLubbaAppApp.swift */,
+				2679793D2B0BA59B00BDF0AE /* WubbaLubbaApp.swift */,
 			);
 			path = WubbaLubbaApp;
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 				267979502B0BA74500BDF0AE /* Episodes.swift in Sources */,
 				267979602B0BABDC00BDF0AE /* CharacterModel.swift in Sources */,
 				2679796C2B0BCC8200BDF0AE /* EpisodesViewModel.swift in Sources */,
-				2679793E2B0BA59B00BDF0AE /* WubbaLubbaAppApp.swift in Sources */,
+				2679793E2B0BA59B00BDF0AE /* WubbaLubbaApp.swift in Sources */,
 				2679794E2B0BA72900BDF0AE /* Characters.swift in Sources */,
 				263C88322B0BF3E90074B601 /* ResponseModel.swift in Sources */,
 				263C88362B0BF4520074B601 /* LocationModel.swift in Sources */,
@@ -400,12 +400,14 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WubbaLubba;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -434,12 +436,14 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WubbaLubba;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

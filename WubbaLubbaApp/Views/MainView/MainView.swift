@@ -16,7 +16,6 @@ struct MainView: View {
 
     @State private var selectedTab: Tab = .characters
 
-
     var body: some View {
         Group {
 
@@ -37,7 +36,6 @@ struct MainView: View {
         .accentColor(.green)
     }
 }
-
 
 #Preview {
     MainView()
